@@ -1,0 +1,21 @@
+Python 2.7.10 (default, Feb  7 2017, 00:08:15)
+[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+
+# Convert Dollars to Pounds
+>>> x_rate = 0.65
+>>> total_dollars = 200
+>>> fee = 2
+>>> total_pounds = (total_dollars - fee) * x_rate
+>>> print total_pounds
+128.7
+
+# Convert Pounds to Dollars
+>>> total_dollars = (total_pounds / x_rate) - fee
+>>> print total_dollars
+196.0
+
+>>> import math
+>>> math.floor(total_dollars)
+196.0
+

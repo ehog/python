@@ -1,0 +1,17 @@
+
+Python 2.7.10 (default, Feb  7 2017, 00:08:15)
+[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+
+# Introduction to Strings
+
+>>> first_name = 'Monty'
+>>> last_name = 'Python'
+>>> full_name = first_name + last_name
+>>> full_name
+'MontyPython'
+
+>>> full_name = first_name + ' ' +  last_name
+>>> full_name
+'Monty Python'
+

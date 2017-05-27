@@ -1,0 +1,8 @@
+Python 2.7.10 (default, Feb  7 2017, 00:08:15)
+[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> dog_age = 10
+>>> dog_multiplier = 7
+>>> human_age = dog_age * dog_multiplier
+>>> print human_age
+70
