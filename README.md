@@ -1,2 +1,2 @@
 # python
-A repository for python programs written by me.
+A repository for python programs
